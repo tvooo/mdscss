@@ -1,0 +1,11 @@
+@mixin small {
+  font-size: $md-font-size-sm;
+}
+
+@mixin strong {
+  font-weight: $md-font-weight-bold;
+}
+
+@mixin em {
+  font-style: $md-font-style-italic;
+}

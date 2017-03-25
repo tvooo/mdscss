@@ -1,0 +1,27 @@
+$md-color-grey-50: #f8f8f8 !default;
+$md-color-grey-100: #ddd !default;
+
+// Font stacks from http://tachyons.io/
+$md-font-family-sans-serif: -apple-system,
+  system-ui,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Roboto",
+  "Helvetica Neue",
+  Arial,
+  sans-serif !default;
+$md-font-family-serif: georgia,
+  times,
+  serif !default;
+$md-font-family-monospace: Consolas,
+  monaco,
+  monospace !default;
+
+$md-font-size-base: 16px !default;
+$md-font-size-sm: .75rem !default;
+$md-font-size-md: 1.5rem !default;
+$md-font-size-lg: 2rem !default;
+$md-font-size-xl: 4rem !default;
+
+$md-font-weight-bold: bold !default;
+$md-font-style-italic: italic !default;

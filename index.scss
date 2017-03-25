@@ -1,0 +1,19 @@
+@import "src/tokens";
+@import "src/blockquote";
+@import "src/code";
+@import "src/headings";
+@import "src/inline";
+@import "src/lists";
+@import "src/tables";
+
+.mdscss {
+  // Headings
+  h1 { @include h1; }
+  h2 { @include h2; }
+  h3 { @include h3; }
+  h4 { @include h4; }
+  // Inline elements
+  strong { @include strong; }
+  em { @include em; }
+  small { @include small; }
+}

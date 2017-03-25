@@ -1,0 +1,19 @@
+@mixin h1 {
+  font-size: $md-font-size-xl;
+  font-weight: $md-font-weight-bold;
+}
+
+@mixin h2 {
+  font-size: $md-font-size-lg;
+  font-weight: $md-font-weight-bold;
+}
+
+@mixin h3 {
+  font-size: $md-font-size-md;
+  font-weight: $md-font-weight-bold;
+}
+
+@mixin h4 {
+  font-size: $md-font-size-base;
+  font-weight: $md-font-weight-bold;
+}
