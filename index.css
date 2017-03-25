@@ -21,6 +21,10 @@
     font-size: 0.667em; }
   .mdscss code {
     font-family: Consolas, monaco, monospace; }
+  .mdscss li {
+    line-height: 1.5em; }
+  .mdscss p {
+    line-height: 1.5em; }
   .mdscss blockquote {
     margin-left: 0;
     padding-left: .5rem;
@@ -30,3 +34,5 @@
     padding: 1em; }
   .mdscss * + * {
     margin-top: 1.5rem; }
+  .mdscss li + li {
+    margin-top: 0; }
