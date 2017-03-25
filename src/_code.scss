@@ -1,0 +1,8 @@
+@mixin code {
+  font-family: $md-font-family-monospace;
+}
+
+@mixin pre {
+  background: $md-color-grey-50;
+  padding: 1em;
+}

@@ -5,6 +5,7 @@
 @import "src/inline";
 @import "src/lists";
 @import "src/tables";
+@import "src/paragraphs";
 
 .mdscss {
   // Headings
@@ -16,4 +17,25 @@
   strong { @include strong; }
   em { @include em; }
   small { @include small; }
+  code { @include code; }
+  // Lists
+  li { @include li; }
+  // Other block elements
+  p { @include p; }
+  blockquote { @include blockquote; }
+  pre { @include pre; }
+
+  // Base
+  font-size: $md-font-size-base;
+  font-family: $md-font-family-sans-serif;
+
+  // Rhythm
+
+  * + * {
+    margin-top: 1.5rem;
+  }
+
+  li + li {
+    margin-top: 0;
+  }
 }

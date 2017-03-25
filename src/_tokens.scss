@@ -17,11 +17,13 @@ $md-font-family-monospace: Consolas,
   monaco,
   monospace !default;
 
-$md-font-size-base: 16px !default;
-$md-font-size-sm: .75rem !default;
-$md-font-size-md: 1.5rem !default;
-$md-font-size-lg: 2rem !default;
-$md-font-size-xl: 4rem !default;
+// 2:3 "Perfect Fifth" type scale
+// http://www.modularscale.com/?1&em&1.5&web&text
+$md-font-size-base: 1rem !default;
+$md-font-size-sm: .667em !default;
+$md-font-size-md: 1.5em !default;
+$md-font-size-lg: 2.25em !default;
+$md-font-size-xl: 3.375em !default;
 
 $md-font-weight-bold: bold !default;
 $md-font-style-italic: italic !default;

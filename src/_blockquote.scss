@@ -1,5 +1,5 @@
-blockquote {
+@mixin blockquote {
   margin-left: 0;
-  padding-left: 1rem;
-  border-left: .2rem solid $md-color-grey-100;
+  padding-left: .5rem;
+  border-left: .5rem solid $md-color-grey-100;
 }
