@@ -1,5 +1,7 @@
 # mdscss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tvooo/mdscss.svg)](https://greenkeeper.io/)
+
 > Base styles for Markdown-generated HTML
 
 If you generate HTML from Markdown and have to control over the styles applied to individual elements, **mdscss** provides you with base styles to apply to a wrapper element.
